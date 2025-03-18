@@ -1,7 +1,52 @@
-h1{
-    text-align: center;
+
+
+body{
+    background-color: black;
 }
 
-h2{
-    color: red;
+.rectangle{
+    height: 3px;
+    width: 27px;
+    background-color: white;
+}
+
+.navbargauche{
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+}
+
+.rond{
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.navbardroite{
+    display: flex;
+    gap: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loupe{
+    color: white;
+}
+
+.search{
+    background-color: inherit;
+    border: 1px solid gray;
+    padding: 0.25rem 0.5rem;
+    color: white;
+}
+
+.searchmaman{
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
